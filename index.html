@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lightning Client || Online API Tester</title>
+  <link rel="icon" href="logo.png" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header class="div">
+    <span><img style="width: 35px; margin-right: 10px; border: 2px solid black; border-radius: 10px;" src="logo.png" alt="logo" />Lightning Client</span>
+  </header>
+  <div id="container">
+  <input type="text" id="linkInput" placeholder="Paste the API link">
+  <input type="text" id="content" placeholder="ContentType/ " >
+  <button id="GET">GET</button>
+  <button id="POST">POST</button>
+  <div id="respon"></div>
+  <label for="respon">Response</label>
+  </div>
+  <textarea id="reqBody" type="text" placeholder="Request Body"></textarea>
+</body>
+  <script src="script.js"></script>
+</html>

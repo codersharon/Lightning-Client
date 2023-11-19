@@ -1,0 +1,85 @@
+.div {
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+span {
+  font-style: italic;
+  font-family: cursive;
+  cursor: default;
+}
+
+div, input, textarea, p, h1, span, button, label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#respon {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 20%;
+  padding: 1%;
+  overflow: scroll;
+  width: 50%;
+  height: 50%;
+  color: white;
+  border: 2px solid #f66151;
+  border-radius: 10px;
+}
+#reqBody {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: -5%;
+  padding: 1%;
+  overflow: scroll;
+  width: 50%;
+  height: 50%;
+  background: #180e2f;
+  color: white;
+  border: 2px solid #f66151;
+  border-radius: 10px;
+}
+
+#linkInput {
+  width: 45%;
+  padding: 2px;
+  padding-left: 5px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+#linkInput:hover {
+  border: 2px solid white;
+  outline: #f66151 solid 2px;
+}
+
+#GET, #POST {
+  border: 2px solid #e01b24;
+  color: white;
+  background: #c01c28;
+  border-radius: 2px;
+  margin: 0% 1%;
+}
+
+#GET:hover, #POST:hover {
+  border: 2px solid #e01b24;
+  color: white;
+  background: #e01b24;
+  border-radius: 2px;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: white;
+  background: #100925;
+  text-align: center;
+/*   padding: 1%; */
+}
+
+#container {
+/*   margin-left: 1%; */
+  text-align: center;
+  width: 95vw;
+  height: 90vh;
+}
